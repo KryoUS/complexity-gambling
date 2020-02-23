@@ -4502,6 +4502,11 @@ lru-cache@^4.0.0, lru-cache@^4.0.1:
     pseudomap "^1.0.2"
     yallist "^2.1.2"
 
+luaparse@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/luaparse/-/luaparse-0.3.0.tgz#80f8d2161a636dea1fdd39e77996277337df18a1"
+  integrity sha512-hrRXc3QJfZ0BfgOGgNfFaKM01zCjSP2y000WOG4jwl3s06vKzODIfqJ3QKSm64mS52ROpnRnfi756jJbDr59fw==
+
 macos-alias@~0.2.5:
   version "0.2.11"
   resolved "https://registry.yarnpkg.com/macos-alias/-/macos-alias-0.2.11.tgz#feeea6c13ba119814a43fc43c470b31e59ef718a"
