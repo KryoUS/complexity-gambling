@@ -1,0 +1,72 @@
+html {
+    background-color: #141517;
+    color: #ecececde;
+    font-family: Oswald,sans-serif;
+    height: 100vh;
+    margin: 0;
+    width: 100vw;
+}
+
+.app {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.cross-gambling-container {
+    color: #ececec8a;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+}
+
+.cross-gambling-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 1.5rem;
+    color: #ecececde;
+}
+
+.button {
+    padding: 5px;
+    text-align: center;
+    background-color: #25262A;
+    color: #ecececde;
+}
+
+.button:hover {
+    padding: 5px;
+    cursor: pointer;
+    color: #25262A;
+    background-color: #ecececde;
+}
+
+.error-modal-background {
+    background-color: #141517d7;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.error-modal-window {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #202125;
+    width: 600px;
+    height: 400px;
+    padding: 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -300px;
+}
